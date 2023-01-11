@@ -159,7 +159,7 @@ SENSOR_META: dict[str, HuaweiSensorGroup] = {
         descriptions={
             "arfcn": HuaweiSensorEntityDescription(
                 key="arfcn",
-                name="ARFCN",
+                name="Absolute radio frequency channel number",
                 entity_category=EntityCategory.DIAGNOSTIC,
             ),
             "band": HuaweiSensorEntityDescription(
@@ -208,7 +208,7 @@ SENSOR_META: dict[str, HuaweiSensorGroup] = {
             ),
             "earfcn": HuaweiSensorEntityDescription(
                 key="earfcn",
-                name="EARFCN",
+                name="E-UTRA absolute radio frequency channel number",
                 entity_category=EntityCategory.DIAGNOSTIC,
             ),
             "ecio": HuaweiSensorEntityDescription(
